@@ -5,12 +5,12 @@
 
 .header{
     height: 5vh;
-    background-color: orange;
     display: flex;
     align-items: center;
 }
 .content {
     background-color: skyblue;
+    height: 90vh;
 }
 .footer {
     height: 5vh;
