@@ -11,6 +11,9 @@
 .content {
   background-color: skyblue;
   height: 90vh;
+
+  /* margin 塌陷 BFC */
+  overflow: hidden;  
 }
 .footer {
   height: 5vh;
@@ -32,4 +35,11 @@
 .btn:hover {
     background-color: blue;
     color: white;
+}
+
+.section {
+  background-color: white;
+  border: 1px solid black;
+  margin: 8px;
+  padding: 8px;
 }

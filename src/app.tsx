@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Avatar from './components/Avatar'
 import withLoading from './hoc/withLoading'
 import Toggle from './components/Toggle'
+import CustomDemo from './components/CustomDemo'
 
 const App = () => {
 
@@ -18,7 +19,7 @@ const App = () => {
                 {/* <CharactersContainer /> */}
                 {/* <Auth /> */}
                 {/* <AvatarWithLoading name='orange' loading={true} /> */}
-                <div>
+                <div className='section'>
                     <Toggle>
                         <Toggle.On>
                             <div>ON</div>
@@ -28,6 +29,9 @@ const App = () => {
                         </Toggle.Off>
                         <Toggle.Button text='toggle' />
                     </Toggle>
+                </div>
+                <div className='section'>
+                    <CustomDemo />
                 </div>
             </div>
             <div className="footer"></div>
