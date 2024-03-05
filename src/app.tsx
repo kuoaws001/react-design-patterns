@@ -14,6 +14,7 @@ import Ex3 from './example/Ex3';
 import Ex4 from './example/Ex4';
 import Ex5 from './example/Ex5';
 import Ex6 from './example/Ex6';
+import Ex7 from './example/Ex7';
 
 import TodoList from './components/TodoList/TodoList';
 
@@ -54,7 +55,9 @@ const App = () => {
         // <Ex4 />
         // <TodoList />
         // <Ex5 />
-        <Ex6 />
+        // <Ex6 />
+        <Ex7 />
+
 
     )
 }
