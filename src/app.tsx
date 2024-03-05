@@ -12,6 +12,7 @@ import Ex1 from './example/Ex1';
 import Ex2 from './example/Ex2';
 import Ex3 from './example/Ex3';
 import Ex4 from './example/Ex4';
+import Ex5 from './example/Ex5';
 import TodoList from './components/TodoList/TodoList';
 
 const App = () => {
@@ -49,7 +50,8 @@ const App = () => {
         // <Ex2 />
         // <Ex3 />
         // <Ex4 />
-        <TodoList />
+        // <TodoList />
+        <Ex5 />
     )
 }
 
