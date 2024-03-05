@@ -1,9 +1,7 @@
 import React, { useEffect, useRef } from 'react'
-import { CustomButton, CustomInput } from './Custom'
+import { CustomButton, CustomInput } from '../components/Custom'
 
-
-const CustomDemo = () => {
-
+const Ex8 = () => {
     const inputRef = useRef<HTMLInputElement>(null)
     const btnRef = useRef<HTMLButtonElement>(null)
 
@@ -34,4 +32,4 @@ const CustomDemo = () => {
     )
 }
 
-export default CustomDemo
+export default Ex8

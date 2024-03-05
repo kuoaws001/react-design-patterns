@@ -6,7 +6,6 @@ import '@/styles/index.css'
 // import Avatar from './components/Avatar'
 // import withLoading from './hoc/withLoading'
 // import Toggle from './components/Toggle'
-// import CustomDemo from './components/CustomDemo'
 
 import Ex1 from './example/Ex1';
 import Ex2 from './example/Ex2';
@@ -15,37 +14,18 @@ import Ex4 from './example/Ex4';
 import Ex5 from './example/Ex5';
 import Ex6 from './example/Ex6';
 import Ex7 from './example/Ex7';
+import Ex8 from './example/Ex8';
 
 import TodoList from './components/TodoList/TodoList';
 
 const App = () => {
 
-    // const AvatarWithLoading = withLoading(Avatar)
-
     // return (
-    //     <>
-    //         <Header />
     //         <div className="content">
-    //             {/* <CharactersContainer /> */}
-    //             {/* <Auth /> */}
-    //             {/* <AvatarWithLoading name='orange' loading={true} /> */}
-    //             <div className='section'>
-    //                 <Toggle>
-    //                     <Toggle.On>
-    //                         <div>ON</div>
-    //                     </Toggle.On>
-    //                     <Toggle.Off>
-    //                         <div>OFF</div>
-    //                     </Toggle.Off>
-    //                     <Toggle.Button text='toggle' />
-    //                 </Toggle>
-    //             </div>
     //             <div className='section'>
     //                 <CustomDemo />
     //             </div>
     //         </div>
-    //         <div className="footer"></div>
-    //     </>
     // )
 
     return (
@@ -56,7 +36,8 @@ const App = () => {
         // <TodoList />
         // <Ex5 />
         // <Ex6 />
-        <Ex7 />
+        // <Ex7 />
+        <Ex8 />
 
 
     )
