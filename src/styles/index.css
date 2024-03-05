@@ -43,3 +43,7 @@
   margin: 8px;
   padding: 8px;
 }
+
+.wrap {
+  display: inline-block;
+}
