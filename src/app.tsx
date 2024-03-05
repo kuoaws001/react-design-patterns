@@ -9,6 +9,8 @@ import '@/styles/index.css'
 // import CustomDemo from './components/CustomDemo'
 
 import Ex1 from './example/Ex1';
+import Ex2 from './example/Ex2';
+import Ex3 from './example/Ex3';
 
 const App = () => {
 
@@ -41,7 +43,10 @@ const App = () => {
     // )
 
     return (
-        <Ex1 />
+        // <Ex1 />
+        // <Ex2 />
+        <Ex3 />
+
     )
 }
 
