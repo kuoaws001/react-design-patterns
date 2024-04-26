@@ -15,31 +15,14 @@ import Ex5 from './example/Ex5';
 import Ex6 from './example/Ex6';
 import Ex7 from './example/Ex7';
 import Ex8 from './example/Ex8';
+import Ex9 from './example/Ex9';
 
 import TodoList from './components/TodoList/TodoList';
 
 const App = () => {
 
-    console.log('orange')
-    // return (
-    //         <div className="content">
-    //             <div className='section'>
-    //                 <CustomDemo />
-    //             </div>
-    //         </div>
-    // )
-
     return (
-        
-        // <Ex1 />
-        // <Ex2 />
-        // <Ex3 />
-        // <Ex4 />
-        // <TodoList />
-        // <Ex5 />
-        // <Ex6 />
-        // <Ex7 />
-        <Ex8 />
+       <Ex9 />
     )
 }
 
