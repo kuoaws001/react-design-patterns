@@ -20,7 +20,7 @@ import TodoList from './components/TodoList/TodoList';
 
 const App = () => {
 
-    console.log(123)
+    console.log('orange')
     // return (
     //         <div className="content">
     //             <div className='section'>
