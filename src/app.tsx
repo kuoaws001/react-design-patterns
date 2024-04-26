@@ -1,5 +1,5 @@
 import React from 'react'
-import '@/styles/index.css'
+// import '@/styles/index.css'
 // import CharactersContainer from './components/CharactersContainer'
 // import Auth from './components/Auth'
 // import Header from './components/Header'
