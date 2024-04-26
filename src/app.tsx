@@ -20,6 +20,7 @@ import TodoList from './components/TodoList/TodoList';
 
 const App = () => {
 
+    console.log(123)
     // return (
     //         <div className="content">
     //             <div className='section'>
@@ -29,6 +30,7 @@ const App = () => {
     // )
 
     return (
+        
         // <Ex1 />
         // <Ex2 />
         // <Ex3 />
