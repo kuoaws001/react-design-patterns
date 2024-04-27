@@ -17,14 +17,14 @@ import Ex7 from './example/Ex7';
 import Ex8 from './example/Ex8';
 import Ex9 from './example/Ex9';
 import Ex10 from './example/Ex10';
-
+import Ex11 from './example/Ex11';
 
 import TodoList from './components/TodoList/TodoList';
 
 const App = () => {
 
     return (
-       <Ex10 />
+       <Ex11 />
     )
 }
 
